@@ -35,6 +35,9 @@ $GLOBALS['TL_LANG']['tl_redirect4ward']['priority'][1]	= "Choose priority for th
 $GLOBALS['TL_LANG']['tl_redirect4ward']['published'][0]	= "Active";
 $GLOBALS['TL_LANG']['tl_redirect4ward']['published'][1]	= "Here you can disable the redirection.";
 
+$GLOBALS['TL_LANG']['tl_redirect4ward']['nocase'][0]	= "Ignore";
+$GLOBALS['TL_LANG']['tl_redirect4ward']['nocase'][1]	= "ignore case-insensitive.";
+
 $GLOBALS['TL_LANG']['tl_redirect4ward']['everyHost'] = 'every host';
 $GLOBALS['TL_LANG']['tl_content']['tl_redirect4ward']['tl_redirect4wardTypes']['intern'] = 'Internal redirection';
 $GLOBALS['TL_LANG']['tl_content']['tl_redirect4ward']['tl_redirect4wardTypes']['extern'] = 'External redirection';
