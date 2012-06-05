@@ -83,9 +83,9 @@ $GLOBALS['TL_DCA']['tl_redirect4ward'] = array
 	'palettes' => array
 	(
 		'__selector__'                => array('jumpToType'),
-		'default'                     => '{type_legend},jumpToType;{target_legend},url,host,rgxp,jumpTo;{expert_legend},type,priority;{publish_legend},published',
-		'Intern'           			  => '{type_legend},jumpToType;{target_legend},url,host,rgxp,jumpTo;{expert_legend},type,priority;{publish_legend},published',
-		'Extern'           			  => '{type_legend},jumpToType;{target_legend},url,host,rgxp,externalUrl;{expert_legend},type,priority;{publish_legend},published'
+		'default'                     => '{type_legend},jumpToType;{target_legend},url,host,rgxp,jumpTo;{expert_legend},type,priority,nocase;{publish_legend},published',
+		'Intern'           			  => '{type_legend},jumpToType;{target_legend},url,host,rgxp,jumpTo;{expert_legend},type,priority,nocase;{publish_legend},published',
+		'Extern'           			  => '{type_legend},jumpToType;{target_legend},url,host,rgxp,externalUrl;{expert_legend},type,priority,nocase;{publish_legend},published'
 	),
 
 	// Fields
@@ -164,6 +164,14 @@ $GLOBALS['TL_DCA']['tl_redirect4ward'] = array
 			'search'                  => true,
 			'inputType'               => 'text',
 			'eval'                    => array('mandatory'=>true, 'rgxp'=>'digit', 'maxlength'=>10,'tl_class'=>'w50')
+		),
+		'nocase' => array
+		(
+			'label'                   => &$GLOBALS['TL_LANG']['tl_redirect4ward']['nocase'],
+			'exclude'                 => true,
+			'default'				  => '0',
+			'inputType'               => 'checkbox',
+			'eval'                    => array('tl_class'=>'w50')
 		),
 		'published' => array
 		(
