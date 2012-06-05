@@ -127,6 +127,10 @@ class HtaccessRedirect4ward extends Controller implements HtaccessSubmodule
 			else if ($blnNewApache) {
 				$strBuffer .= ',QSD';
 			}
+			// append case-insensitive option
+	            	if($objRedirect->nocase!=0){
+	                	$strBuffer .= ",NC";           
+	            	}
 
 			$strBuffer .= "]\n\n";
 		}
