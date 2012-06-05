@@ -23,6 +23,7 @@ CREATE TABLE `tl_redirect4ward` (
   `rgxp` char(1) NOT NULL default '',
   `priority` int(10) unsigned NOT NULL default '10',
   `published` char(1) NOT NULL default '',
+  `nocase` char(1) NOT NULL default '',
   PRIMARY KEY  (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
