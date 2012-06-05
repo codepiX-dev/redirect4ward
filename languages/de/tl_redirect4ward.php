@@ -35,6 +35,9 @@ $GLOBALS['TL_LANG']['tl_redirect4ward']['priority'][1]	= "Wählen Sie hier eine 
 $GLOBALS['TL_LANG']['tl_redirect4ward']['published'][0]	= "Aktiviert";
 $GLOBALS['TL_LANG']['tl_redirect4ward']['published'][1]	= "Hier kann die Weiterleitung deaktiviert werden.";
 
+$GLOBALS['TL_LANG']['tl_redirect4ward']['nocase'][0]	= "Ignorieren";
+$GLOBALS['TL_LANG']['tl_redirect4ward']['nocase'][1]	= "Groß-/ und Kleinschreibung ignorieren.";
+
 
 $GLOBALS['TL_LANG']['tl_redirect4ward']['everyHost'] = 'jeder Host';
 $GLOBALS['TL_LANG']['tl_content']['tl_redirect4ward']['tl_redirect4wardTypes']['intern'] = 'Interne Weiterleitung';
